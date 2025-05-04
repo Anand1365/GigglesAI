@@ -1,0 +1,433 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 0px 0px;
+}
+.backToParent {
+  width: 226px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.topBar {
+  align-self: stretch;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  text-align: left;
+  font-size: 24px;
+  color: #fffafa;
+  font-family: Montserrat;
+}
+.avatarAreaChild {
+  height: 125px;
+  width: 125px;
+  position: relative;
+  flex-shrink: 0;
+}
+.avatarArea {
+  margin-top: -278px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 62px;
+}
+.chatBackgroundIcon {
+  height: 125px;
+  width: 125px;
+  position: relative;
+  border-radius: 512px;
+  object-fit: cover;
+}
+.frameChild {
+  height: 62px;
+  width: 434px;
+  position: relative;
+  border-radius: 54px;
+  background-color: #fffafa;
+  display: none;
+  max-width: 100%;
+}
+.frameItem {
+  width: 164px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 0px 0px;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 16px;
+  color: #424040;
+}
+.stashpaperplaneSolidIcon {
+  width: 43px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: 54px;
+  background-color: #fffafa;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 9px 0px 10px 10px;
+  box-sizing: border-box;
+  gap: 20px;
+  max-width: 100%;
+}
+.problemPrompt {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 10px 0px 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.advicePrompt {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.messageArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px 31px;
+  box-sizing: border-box;
+  min-width: 290px;
+  max-width: 100%;
+}
+.chatBubble {
+  width: 604px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 33px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.chatArea {
+  flex: 1;
+  border-radius: 40px;
+  background-color: #424040;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 66px 28px;
+  box-sizing: border-box;
+  gap: 153px;
+  max-width: 100%;
+}
+.content {
+  width: 1281px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 262px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: Kantumruy;
+}
+.friendAvtarChatPage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #1a1a1a; /* Darker background similar to landing page */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #2a2a2a; /* Darker header */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border: none;
+}
+
+.backToParent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.backToIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  filter: brightness(0) invert(1); /* Make icon white */
+}
+
+.gigglesAiWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.gigglesAi, .gigglesAi1 {
+  margin: 0;
+  color: #ffffff; /* White text */
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.maleUserIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0; /* Remove padding to stretch full width */
+  overflow: hidden;
+  width: 100%; /* Full width */
+}
+
+.chatArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a; /* Match page background */
+  border-radius: 0; /* Remove border radius */
+  box-shadow: none; /* Remove shadow */
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  gap: 0;
+}
+
+.chatMessages {
+  flex: 1;
+  padding: 20px;
+  padding-bottom: 100px; /* Add space at bottom for better scrolling */
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 800px; /* Limit max width of messages */
+  margin: 0 auto; /* Center messages horizontally */
+  height: calc(100vh - 180px);
+  max-height: calc(100vh - 180px);
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.userMessage, .botMessage {
+  max-width: 80%;
+  padding: 12px 16px;
+  border-radius: 18px;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  animation: fadeIn 0.3s ease;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.userMessage {
+  align-self: flex-end;
+  background-color: #4a6fa5;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.botMessage {
+  align-self: flex-start;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-bottom-left-radius: 4px;
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+}
+
+/* Add styles for emojis to display properly */
+.botMessage span.emoji {
+  font-size: 1.2em;
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.problemPrompt {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #1a1a1a; /* Match page background */
+  border-top: 1px solid #333333; /* Darker border */
+  max-width: 800px; /* Match message container width */
+  margin: 0 auto; /* Center horizontally */
+  padding-bottom: 25px; /* Add extra padding at bottom */
+}
+
+.rectangleParent {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a; /* Darker input */
+  border-radius: 24px;
+  padding: 0 16px;
+}
+
+.frameItem {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  background-color: transparent;
+  color: #ffffff; /* White text */
+}
+
+.frameItem::placeholder {
+  color: #999999; /* Lighter placeholder */
+}
+
+.stashpaperplaneSolidIcon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+  transition: opacity 0.2s;
+}
+
+.stashpaperplaneSolidIcon:hover {
+  opacity: 0.8;
+}
+
+/* Hide unnecessary elements */
+.avatarArea, .chatBackgroundIcon, .chatBubble {
+  display: none;
+}
+
+.messageArea {
+  width: 100%;
+  padding: 0;
+}
+
+.advicePrompt {
+  width: 100%;
+  height: 100%;
+}
+
+.typingIndicator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+}
+
+.typingIndicator span {
+  width: 8px;
+  height: 8px;
+  background-color: #9e9ea1;
+  border-radius: 50%;
+  display: inline-block;
+  animation: bounce 1.5s infinite ease-in-out;
+}
+
+.typingIndicator span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typingIndicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typingIndicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% { 
+    transform: scale(0);
+  }
+  40% { 
+    transform: scale(1.0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

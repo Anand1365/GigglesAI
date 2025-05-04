@@ -1,0 +1,438 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.backToParent {
+  width: 226px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.maleUserIcon {
+  width: 43px;
+  height: 44px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.maleUserWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-snow-100);
+  font-family: var(--font-montserrat);
+}
+.pixelarticonsarrowUp {
+  width: 46.9px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.gotQuestionsLets {
+  margin: 0;
+}
+.gotQuestionsLetsContainer {
+  position: relative;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.gotQuestionsLetsTalkWeWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 634px;
+  max-width: 100%;
+}
+.pixelarticonsarrowUpParent {
+  width: 1023px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.1px;
+  max-width: 100%;
+}
+.contactInfo {
+  position: relative;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.contactInfo9112xxxxxxx0Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pixelarticonsarrowUpGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid-1);
+  max-width: 100%;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.submitARequestGoogleFormWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pixelarticonsarrowUpContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18.1px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl-1);
+  max-width: 100%;
+}
+.centerFrameInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.centerFrame {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  border: 1px solid #ccbfbf;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-51xl) var(--padding-14xl) 89px;
+  gap: var(--gap-3xl-1);
+  max-width: 100%;
+}
+.centerFrameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-13xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 47px;
+  max-width: 100%;
+}
+.contactPageInner {
+  width: 1246px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 75px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: var(--color-white);
+  font-family: var(--font-instrument-sans);
+}
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2a2a2a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #4a6fa5;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.backButton:hover {
+  background-color: rgba(74, 111, 165, 0.1);
+}
+
+.title {
+  margin: 0 auto;
+  font-size: 24px;
+  color: #4a6fa5;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contactInfo {
+  padding: 30px;
+  background-color: #333;
+}
+
+.contactInfo h2 {
+  color: #4a6fa5;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contactInfo p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.infoIcon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.contactForm {
+  padding: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #4a6fa5;
+}
+
+.submitButton {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #3a5a8f;
+}
+
+.thankYouMessage {
+  text-align: center;
+  background-color: #2a2a2a;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.thankYouMessage h2 {
+  color: #4a6fa5;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.thankYouMessage p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.backToHomeButton {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.backToHomeButton:hover {
+  background-color: #3a5a8f;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 20px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .contactContainer {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .contactPageInner {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .pixelarticonsarrowUpGroup {
+    flex-wrap: wrap;
+  }
+
+  .pixelarticonsarrowUpContainer {
+    flex-wrap: wrap;
+  }
+
+  .frameGroup {
+    gap: 23px;
+  }
+
+  .contactPage {
+    gap: 55px;
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .gotQuestionsLetsContainer {
+    font-size: var(--font-size-lg);
+  }
+
+  .contactInfo {
+    font-size: var(--font-size-xl);
+  }
+
+  .contactPage {
+    gap: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gotQuestionsLetsContainer {
+    font-size: var(--font-size-5xl);
+  }
+
+  .gotQuestionsLetsTalkWeWrapper {
+    min-width: 100%;
+  }
+
+  .pixelarticonsarrowUpParent {
+    flex-wrap: wrap;
+  }
+}

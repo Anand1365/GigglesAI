@@ -1,0 +1,437 @@
+.landingPageLightMode1Child {
+  width: 1440px;
+  height: 900px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.gigglesContainer {
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+}
+.about {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  cursor: pointer;
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.menu {
+  width: 422px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.navigation {
+  width: 483px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.mdiemailOpenOutlineIcon {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.materialSymbolslightModeIcon {
+  width: 26px;
+  position: relative;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10.3px;
+}
+.main {
+  width: 1319px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.landingPageLightMode1 {
+  width: 100%;
+  position: relative;
+  background-color: rgba(212, 203, 203, 0.74);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 45px 0px 302px 81px;
+  box-sizing: border-box;
+  gap: 247px;
+  background-image: url("/public/landing-page-light-mode-1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1050px) {
+  .menu {
+    display: none;
+  }
+
+  .navigation {
+    width: 61px;
+  }
+
+  .landingPageLightMode1 {
+    gap: 123px;
+    padding-left: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .landingPageLightMode1 {
+    gap: var(--gap-43xl);
+  }
+}
+.landingPageLightModeChild {
+  width: 1440px;
+  height: 900px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+  color: #4a6fa5;
+}
+.gigglesAiWrapper {
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+}
+.home {
+  position: relative;
+  font-weight: 500;
+  transform: rotate(-1.5deg);
+  color: #333;
+}
+.about {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  cursor: pointer;
+  color: #333;
+}
+.contact {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+  color: #333;
+}
+.homeParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-xl);
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 256.5px;
+  max-width: 100%;
+}
+.mdiemailOpenOutlineIcon {
+  width: 24px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+.materialSymbolslightModeIcon {
+  width: 26px;
+  position: relative;
+  max-height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.mdiemailOpenOutlineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameParent {
+  align-self: stretch;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: #333;
+  font-family: var(--font-montserrat);
+}
+.landingPageLightMode {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("/public/landing-page-light-mode@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.9);
+  padding: 15px 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.gigglesAi {
+  color: #4a6fa5;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.gigglesAi1 {
+  margin: 0;
+}
+
+.navigationLinks {
+  display: flex;
+  gap: 30px;
+}
+
+.navItem {
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 5px 0;
+  text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+.iconItem {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  filter: brightness(0) invert(0);
+}
+
+.navItem:hover {
+  color: #4a6fa5;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+}
+
+.iconItem {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+}
+
+.iconItem:hover {
+  opacity: 0.8;
+}
+
+.authButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.loginButton, .signupButton {
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loginButton {
+  background-color: transparent;
+  border: 1px solid #4a6fa5;
+  color: #4a6fa5;
+}
+
+.loginButton:hover {
+  background-color: rgba(74, 111, 165, 0.1);
+}
+
+.signupButton {
+  background-color: #4a6fa5;
+  border: none;
+  color: white;
+}
+
+.signupButton:hover {
+  background-color: #3a5a8f;
+}
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+@media screen and (max-width: 1050px) {
+  .navigationLinks {
+    display: none;
+  }
+  
+  .header {
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .socialIcons {
+    display: none;
+  }
+  
+  .rightSection {
+    gap: 10px;
+  }
+  
+  .mainContent {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .loginButton, .signupButton {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  .gigglesAi {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .homeParent {
+    display: none;
+  }
+
+  .frameGroup {
+    gap: var(--gap-109xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .landingPageLightMode {
+    gap: var(--gap-109xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .homeParent {
+    gap: var(--gap-xl);
+  }
+
+  .frameGroup {
+    gap: var(--gap-45xl);
+  }
+
+  .landingPageLightMode {
+    gap: var(--gap-45xl);
+  }
+}

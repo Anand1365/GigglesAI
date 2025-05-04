@@ -1,0 +1,358 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.gigglesAi {
+  align-self: stretch;
+  position: relative;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12.3px 0px 0px;
+}
+.backToParent {
+  width: 198px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileWithAddon {
+  width: 135px;
+  height: 104px;
+  position: relative;
+  display: none;
+}
+.profilePage {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+
+.title {
+  color: #4a6fa5;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.error {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.avatarContainer {
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #4a6fa5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.userName {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.profileInfo {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.infoLabel {
+  font-weight: 600;
+  color: #666;
+}
+
+.infoValue {
+  color: #333;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.backButton, .logoutButton {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.backButton {
+  background-color: #4a6fa5;
+  border: none;
+  color: white;
+}
+
+.backButton:hover {
+  background-color: #3a5a8f;
+}
+
+.logoutButton {
+  background-color: transparent;
+  border: 1px solid #e53935;
+  color: #e53935;
+}
+
+.logoutButton:hover {
+  background-color: rgba(229, 57, 53, 0.1);
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.loadingSpinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 4px solid #4a6fa5;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+  }
+  
+  .buttonGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .backButton, .logoutButton {
+    width: 100%;
+  }
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a2a2a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.backButton img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #4a6fa5;
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.profileCard {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4a6fa5;
+  margin-bottom: 15px;
+}
+
+.userName {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.profileInfo {
+  margin-bottom: 30px;
+}
+
+.infoItem {
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #444;
+}
+
+.label {
+  flex: 1;
+  color: #cccccc;
+}
+
+.value {
+  flex: 2;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.actionButton {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.actionButton:hover {
+  background-color: #3a5a8f;
+}
+
+.logoutButton {
+  background-color: transparent;
+  color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+}
+
+.logoutButton:hover {
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+@media screen and (max-width: 750px) {
+  .profilePage {
+    gap: 111px;
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .gigglesAi {
+    font-size: var(--font-size-lgi);
+  }
+
+  .profilePage {
+    gap: 56px;
+  }
+}

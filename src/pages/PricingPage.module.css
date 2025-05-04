@@ -1,0 +1,319 @@
+.backToIcon {
+  height: 46px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+}
+.gigglesAi1 {
+  margin: 0;
+}
+.gigglesAi {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gigglesAiWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.backToParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.frameWrapper {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0px 0px;
+  box-sizing: border-box;
+}
+.maleUserIcon {
+  height: 44px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-snow-100);
+  font-family: var(--font-montserrat);
+}
+.pricing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.pricingWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 508px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 61px 0px var(--padding-47xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricingPage3 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-lavenderblush);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 43px var(--padding-40xl) 108px var(--padding-30xl);
+  gap: 22px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricingWrapper {
+    padding-left: var(--padding-235xl);
+    padding-right: var(--padding-235xl);
+    box-sizing: border-box;
+  }
+
+  .content {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .pricing {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .pricingWrapper {
+    padding-left: var(--padding-108xl);
+    padding-right: var(--padding-108xl);
+    box-sizing: border-box;
+  }
+
+  .pricingPage3 {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pricing {
+    font-size: var(--font-size-5xl);
+  }
+
+  .pricingWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+.pricingPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2a2a2a;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #4a6fa5;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.backButton:hover {
+  background-color: rgba(74, 111, 165, 0.1);
+}
+
+.title {
+  margin: 0 auto;
+  font-size: 24px;
+  color: #4a6fa5;
+}
+
+.main {
+  flex: 1;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.pricingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.pricingCard {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricingCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.featured {
+  border: 2px solid #4a6fa5;
+  transform: scale(1.05);
+}
+
+.featured:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.cardHeader {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.cardHeader h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #4a6fa5;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0 0;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.featureList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.featureList li {
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+  position: relative;
+  padding-left: 25px;
+}
+
+.featureList li:before {
+  content: "✓";
+  color: #4a6fa5;
+  position: absolute;
+  left: 0;
+}
+
+.selectButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selectButton:hover {
+  background-color: #3a5a8f;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 15px 20px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .featured {
+    transform: none;
+  }
+  
+  .featured:hover {
+    transform: translateY(-5px);
+  }
+}
